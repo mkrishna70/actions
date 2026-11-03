@@ -1,0 +1,4 @@
+name: Practice-name
+
+on:
+ push: 

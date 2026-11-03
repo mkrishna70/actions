@@ -2,6 +2,7 @@ name: practice-testing
 
 on:
  workflow_dispatch:
+ push: 
 
 jobs:
   job1:

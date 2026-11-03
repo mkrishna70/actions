@@ -3,6 +3,8 @@ name: practice-testing
 on:
  workflow_dispatch:
  push: 
+ schedule:
+   - cron: "10 * * * *"
 
 jobs:
   job1:

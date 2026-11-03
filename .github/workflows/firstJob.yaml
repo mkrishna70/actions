@@ -7,6 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
        - name: Hello step
-         run: echo "Hello step"
+         #run: echo "Hello step"  # single shell command in single step
+         run: | # multiple shell command in single step
+          echo "line one"
+          echo "line two"
    
  

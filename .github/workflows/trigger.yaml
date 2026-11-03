@@ -12,4 +12,7 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - name: Build step
-       run: echo "A demo ${{vars.DEMOTEST}}"
+       run: |
+          echo "A varaible ${{vars.DEMOTEST}}"
+          echo "A secret ${{secrets.MY_NAME}}"
+       

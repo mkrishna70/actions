@@ -25,3 +25,29 @@ jobs:
     needs: [job2]
     steps:
       - run: echo "job4 Job3 Job1 Job2"
+
+
+
+#    Triggering events:
+# -	Trigger manually
+# -	Push to branch
+# -	Create/update Pull request
+# -	Cron schedule
+# on: 
+#    push:
+#        branches:
+# - “<branch-name>”
+#   pull_request:
+#           types:
+#            - opened
+#            - reopened
+#  schedule:
+#           - cron: “0 0 * * *”
+#  Workflow_dispatch:
+
+
+# Envirnoment variables: 
+# -	Workflow
+# -	Job
+# -	Step
+
